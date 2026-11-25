@@ -195,7 +195,7 @@ def gemini(prompt: str, model: str, json_out: bool = True) -> str:
 
 def ask_json(prompt: str, model: str) -> dict:
     other = "gemini-3.5-flash" if model.startswith("gemma") else FALLBACK_MODEL
-    for m in (model, other):
+    for m in (model, other, "gemini-3.1-flash-lite"):
         txt = gemini(prompt, m)
         mt = re.search(r"\{.*\}", txt or "", re.S)
         if mt:
