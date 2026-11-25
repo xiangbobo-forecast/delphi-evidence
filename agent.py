@@ -103,8 +103,9 @@ def _client():
     return httpx.Client(headers={"User-Agent": UA}, timeout=20, follow_redirects=True)
 
 
-def bing_news(q: str, n: int = 8) -> list[dict]:
-    url = "https://www.bing.com/news/search?format=rss&q=" + urllib.parse.quote_plus(q)
+def bing_news(q: str, n: int = 12) -> list[dict]:
+    url = ("https://www.bing.com/news/search?format=rss&q=" + urllib.parse.quote_plus(q)
+           + '&qft=interval%3d"8"')
     try:
         with _client() as c:
             r = c.get(url)
@@ -176,7 +177,8 @@ def gemini(prompt: str, model: str, json_out: bool = True) -> str:
             "generationConfig": {"temperature": 0.2}}
     if json_out and not model.startswith("gemma"):
         body["generationConfig"]["responseMimeType"] = "application/json"
-    for attempt in range(4):
+    tries = 2 if model.startswith("gemma") else 3
+    for attempt in range(tries):
         try:
             r = httpx.post(url, params={"key": GEMINI}, json=body, timeout=120)
             if r.status_code == 429 or r.status_code >= 500:
@@ -192,7 +194,8 @@ def gemini(prompt: str, model: str, json_out: bool = True) -> str:
 
 
 def ask_json(prompt: str, model: str) -> dict:
-    for m in (model, FALLBACK_MODEL) if model != FALLBACK_MODEL else (model,):
+    other = "gemini-3.5-flash" if model.startswith("gemma") else FALLBACK_MODEL
+    for m in (model, other):
         txt = gemini(prompt, m)
         mt = re.search(r"\{.*\}", txt or "", re.S)
         if mt:
@@ -273,6 +276,14 @@ Answer JSON only:
   "note": "...", "why_new": "..."}}"""
 
 
+STOP = set("will the a an of in on at by for to be is or and per its it with from after before than more less least higher lower report reports reported published release".split())
+
+
+def heuristic_query(question: str) -> str:
+    words = [w for w in re.findall(r"[\w\-\.%≥]+", question) if w.lower() not in STOP]
+    return " ".join(words[:8])
+
+
 def run_market(m: dict, st: dict) -> dict | None:
     addr = m["address"]
     ms = st["markets"].setdefault(addr, {"submitted": [], "direction": None, "checks": 0})
@@ -288,7 +299,7 @@ def run_market(m: dict, st: dict) -> dict | None:
 
     fresh = max(market_created(m), now - timedelta(days=4))
     q = ask_json(QUERY_PROMPT.format(q=m["question"], crit=m.get("resolutionCriteria", "")[:1500]), QUERY_MODEL)
-    queries = (q.get("queries") or [])[:4] or [m["question"][:120]]
+    queries = (q.get("queries") or [])[:4] or [heuristic_query(m["question"])]
     seen, cands = set(), []
     for qq in queries:
         for it in bing_news(qq) + gdelt(qq):
