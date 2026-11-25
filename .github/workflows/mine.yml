@@ -1,0 +1,32 @@
+name: mine-evidence
+on:
+  schedule:
+    - cron: "23 */2 * * *"   # every 2h at :23 UTC (avoids Metaculus :11/:41)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = do not submit"
+        default: "0"
+concurrency: { group: mine, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  mine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install httpx==0.27.2
+      - run: python agent.py
+        env:
+          DELPHI_API_ACCESS_KEY: ${{ secrets.DELPHI_API_ACCESS_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+      - name: save state
+        if: always()
+        run: |
+          git config user.name "xiangbobo-evidence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A state.json submissions.jsonl REPORT.md 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "run $(date -u +%FT%H%MZ)" && git pull --rebase -q && git push -q)
