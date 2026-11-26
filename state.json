@@ -71,8 +71,8 @@
   "0xda5d046f5bac4bbfa5abe32bc52787725548d4ee": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T05:28:05.001211+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T21:11:39.975701+00:00"
   },
   "0x42fdc3fb099766fd01289f215cd399146e1f224e": {
    "submitted": [
@@ -80,23 +80,28 @@
      "url": "https://sportstar.thehindu.com/chess/gukesh-vs-sindarov-live-game-2-updates-real-time-board-position-world-chess-championship-2026-highlights/article71742789.ece",
      "summary": "Following the conclusion of Game 2 of the 2026 FIDE World Chess Championship on November 25, 2026, the cumulative score between D. Gukesh and Javokhir Sindarov is tied at 1-1. The report states: 'The ",
      "id": "279a6a29-9dfc-44f3-8c3f-15f78c3e2b67"
+    },
+    {
+     "url": "https://sportstar.thehindu.com/chess/gukesh-vs-sindarov-game-3-live-updates-real-time-board-position-analysis-highlights-world-chess-championship-2026/article71746786.ece",
+     "summary": "Following the conclusion of Game 3 of the 2026 FIDE World Chess Championship on November 27, 2026, the cumulative score between D. Gukesh and Javokhir Sindarov is tied at 1.5 points each. The report s",
+     "id": "101b8cb7-21c5-4801-9843-80b4962de29a"
     }
    ],
    "direction": "no",
-   "checks": 1,
-   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T21:11:39.975701+00:00"
   },
   "0xa96dc716066329d666f3c50e6d8f71c701347296": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T21:11:39.975701+00:00"
   },
   "0x96fd040517bbf73b2980e700e9a164d6efe672ec": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T21:11:39.975701+00:00"
   },
   "0x6d14f2291c886a3469e988a7f80d307802a40c0a": {
    "submitted": [
