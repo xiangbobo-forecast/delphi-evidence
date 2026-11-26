@@ -149,6 +149,30 @@
    "direction": "yes",
    "checks": 1,
    "last_checked": "2026-11-26T11:15:37.419933+00:00"
+  },
+  "0x169f02be2177934e0d9fbb29c52b1d6d1891026c": {
+   "submitted": [
+    {
+     "url": "https://www.jiji.com/jc/article?k=2026112601064&g=pol",
+     "summary": "On November 26, 2026, Japan's Liberal Democratic Party (LDP) administrative reform project team proposed using revenue from public gambling (such as keirin and lotteries) to secure the 10 trillion yen",
+     "id": "dcf76e89-99e6-4158-8482-b1b094aab516"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-26T13:41:08.392555+00:00"
+  },
+  "0x94a46dbc0e0a16e7177b792062b3786d94983179": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T13:41:08.392555+00:00"
+  },
+  "0x7a17b76f7f1cda20e8bc5a88166c4732e6db39f5": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T13:41:08.392555+00:00"
   }
  }
 }
