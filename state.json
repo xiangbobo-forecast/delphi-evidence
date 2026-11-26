@@ -59,6 +59,42 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-26T05:28:05.001211+00:00"
+  },
+  "0x42fdc3fb099766fd01289f215cd399146e1f224e": {
+   "submitted": [
+    {
+     "url": "https://sportstar.thehindu.com/chess/gukesh-vs-sindarov-live-game-2-updates-real-time-board-position-world-chess-championship-2026-highlights/article71742789.ece",
+     "summary": "Following the conclusion of Game 2 of the 2026 FIDE World Chess Championship on November 25, 2026, the cumulative score between D. Gukesh and Javokhir Sindarov is tied at 1-1. The report states: 'The ",
+     "id": "279a6a29-9dfc-44f3-8c3f-15f78c3e2b67"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+  },
+  "0xa96dc716066329d666f3c50e6d8f71c701347296": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+  },
+  "0x96fd040517bbf73b2980e700e9a164d6efe672ec": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+  },
+  "0x6d14f2291c886a3469e988a7f80d307802a40c0a": {
+   "submitted": [
+    {
+     "url": "https://uk.finance.yahoo.com/news/hiring-data-shift-altering-investment-123349901.html",
+     "summary": "On November 25, 2026, Yahoo Finance reported on recent private payroll figures from Automatic Data Processing (ADP). The report noted: \"ADP Automatic Data Processing reported that U.S. private employe",
+     "id": "9ddf7f1e-ac89-415e-9729-94501040a648"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-26T07:43:56.787526+00:00"
   }
  }
 }
