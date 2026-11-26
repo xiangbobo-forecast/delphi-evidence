@@ -1,0 +1,34 @@
+{
+ "markets": {
+  "0x94dbba7c9b44b788a701602ab6d919ff7b7fc38a": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+  },
+  "0x191257a08df3a827a9a02fa54926ed9507b4497a": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+  },
+  "0x55b0fabfcdf6125415854cc193ecd8cdc75bc382": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+  },
+  "0x0d79f61a3cf6c6a83501fcb6abd22eddb4ab6a58": {
+   "submitted": [
+    {
+     "url": "https://wirtschaftsjournal.com/nominalzins-realzins/",
+     "summary": "An article published on November 25, 2026, by Wirtschaftsjournal states that the preliminary German inflation rate for October 2026 was 2.8%. The text explicitly notes: 'So hoch liegt die Rate in Deut",
+     "id": "86c576a0-87fb-4482-99e6-d3635f708b49"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+  }
+ }
+}
