@@ -1,12 +1,14 @@
 # Delphi 证据挖掘战报
 
-更新时间：2026-11-26 10:09 UTC
+更新时间：2026-11-26 11:43 UTC
 
-- 已提交：7 条；已评判：7 条，覆盖 6 个市场（门槛：10 条、3 个市场）
+- 已提交：9 条；已评判：9 条，覆盖 8 个市场（门槛：10 条、3 个市场）
 - 评判奖励合计：0.00 USDC.e（24 小时后到账，结算奖励另算）
 
 | 时间 | 市场 | 结论 | 奖励 USDC | 理由 |
 |---|---|---|---|---|
+| 2026-11-26T11:41 | 0x61be752b | duplicate | 0.00 | We already have this information. |
+| 2026-11-26T11:23 | 0xfdac0b32 | duplicate | 0.00 | We already have this information. |
 | 2026-11-26T08:05 | 0x6d14f229 | unverifiable | 0.00 | The submission cites a specific Yahoo Finance article from November 25, 2026, wi |
 | 2026-11-26T07:52 | 0x42fdc3fb | duplicate | 0.00 | We already have this information. |
 | 2026-11-26T05:45 | 0xbb266674 | irrelevant | 0.00 | The submission concerns the Asan City Council (a local government body), which i |

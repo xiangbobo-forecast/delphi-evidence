@@ -119,6 +119,36 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-26T09:31:27.614653+00:00"
+  },
+  "0xfdac0b329c1eeccb338d7acc0ec4b537dcfc58c2": {
+   "submitted": [
+    {
+     "url": "https://www.letemps.ch/de/schweiz/marcel-dettling-prasident-der-svp-ich-verstehe-den-frust-der-romands",
+     "summary": "On November 25, 2026, Le Temps reported that the SVP parliamentary group has officially nominated Thomas Aeschi and Michael Graber as their candidates for the Federal Council seat being vacated by Guy",
+     "id": "f2aee8c6-32d8-427f-92c8-be3a0eab8dcf"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-26T11:15:37.419933+00:00"
+  },
+  "0xb50e81264ad92791f9849f7f83e0dbad03a39861": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T11:15:37.419933+00:00"
+  },
+  "0x61be752b093bb2ac3b7019360543fa97056eb2b6": {
+   "submitted": [
+    {
+     "url": "https://thehub.ca/2026/11/26/canadian-inflation-could-end-the-year-below-bank-of-canada-forecast-under-renewed-2-target/",
+     "summary": "In a speech to the Economic Club of Canada on November 26, 2026, Bank of Canada Governor Tiff Macklem stated that while falling oil prices may lead to year-end inflation being lower than the bank's pr",
+     "id": "20ca8f64-d43f-49c5-9765-77be13a407fc"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-26T11:15:37.419933+00:00"
   }
  }
 }
