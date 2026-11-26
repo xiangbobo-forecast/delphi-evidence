@@ -51,6 +51,8 @@ REPORT = ROOT / "REPORT.md"
 UA = "Mozilla/5.0 (compatible; xiangbobo-evidence/1.0; research agent)"
 
 now = datetime.now(timezone.utc)
+START = time.time()
+TIME_BUDGET = int(os.environ.get("TIME_BUDGET_SEC", str(24 * 60)))
 
 
 def log(*a):
@@ -180,10 +182,10 @@ def gemini(prompt: str, model: str, json_out: bool = True) -> str:
     tries = 2 if model.startswith("gemma") else 3
     for attempt in range(tries):
         try:
-            r = httpx.post(url, params={"key": GEMINI}, json=body, timeout=120)
+            r = httpx.post(url, params={"key": GEMINI}, json=body, timeout=75)
             if r.status_code == 429 or r.status_code >= 500:
                 log(f"{model} {r.status_code}, retry")
-                time.sleep(20 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             r.raise_for_status()
             return r.json()["candidates"][0]["content"]["parts"][0]["text"]
@@ -262,6 +264,11 @@ Candidate pages (only use facts actually present in the page text):
 {pages}
 
 Rules:
+- Other agents compete on the same market and a fact someone already submitted earns nothing. So prefer the
+  least-covered fact: published in the last 48 hours, from a local-language, official, or niche source.
+  A story covered by 3+ outlets in major English media is probably already submitted: skip it unless nothing else.
+- Stick exactly to what the page says. No extrapolation, no derived numbers the page does not state
+  (the judge marks those "unverifiable").
 - Pick at most one fact. It must be stated in the page text, with a date, and be new information
   (a fresh poll, an official preview, a schedule change, a statement, a published data point, etc.).
 - Generic background, old facts, opinion pieces without new data, or anything not about this exact market = submit false.
@@ -274,6 +281,12 @@ Rules:
 Answer JSON only:
 {{"submit": true/false, "page_index": <int>, "published": "YYYY-MM-DD", "direction": "yes"|"no",
   "note": "...", "why_new": "..."}}"""
+
+
+def agent_overlap(a: str, b: str) -> float:
+    wa = {w for w in re.findall(r"\w{4,}", a.lower())}
+    wb = {w for w in re.findall(r"\w{4,}", b.lower())}
+    return len(wa & wb) / max(1, min(len(wa), len(wb)))
 
 
 STOP = set("will the a an of in on at by for to be is or and per its it with from after before than more less least higher lower report reports reported published release".split())
@@ -327,8 +340,10 @@ def run_market(m: dict, st: dict) -> dict | None:
     prior = "; ".join(s["summary"][:160] for s in ms["submitted"]) or "none"
     side_rule = (f"We already argued '{ms['direction']}' on this market: only submit a fact pointing '{ms['direction']}'."
                  if ms["direction"] else "")
+    def coverage(title):
+        return sum(1 for c in cands if agent_overlap(title, c["title"]) >= 0.5)
     ptxt = "\n\n".join(
-        f"[{i}] {it['title']} | {it['url']} | listed {it['date'].strftime('%Y-%m-%d %H:%M UTC') if it['date'] else 'date?'}\n{t}"
+        f"[{i}] (covered by ~{coverage(it['title'])} outlets) {it['title']} | {it['url']} | listed {it['date'].strftime('%Y-%m-%d %H:%M UTC') if it['date'] else 'date?'}\n{t}"
         for i, (it, t) in enumerate(pages))
     d = ask_json(JUDGE_PROMPT.format(q=m["question"], crit=m.get("resolutionCriteria", "")[:1500],
                                      odds=m.get("odds", {}).get("yes", 0.5), cutoff=m.get("evidenceCutoffAt"),
@@ -378,11 +393,15 @@ def main():
     for m in open_m[:MARKETS_PER_RUN]:
         if done >= min(MAX_SUBMITS_PER_RUN, left):
             break
+        if time.time() - START > TIME_BUDGET:
+            log("time budget used, stopping early")
+            break
         try:
             sub = run_market(m, st)
         except Exception as e:
             log("market error", e)
             continue
+        STATE.write_text(json.dumps(st, ensure_ascii=False, indent=1))
         if not sub:
             continue
         if DRY_RUN:
@@ -398,7 +417,10 @@ def main():
             ms = st["markets"][sub["market"]]
             ms["submitted"].append({"url": sub["url"], "summary": sub["summary"], "id": sid})
             ms["direction"] = ms["direction"] or sub["direction"]
-            r = wait_result(sid)
+            STATE.write_text(json.dumps(st, ensure_ascii=False, indent=1))
+            with LOG.open("a") as f:
+                f.write(json.dumps(rec | {"status": "submitted"}, ensure_ascii=False) + "\n")
+            r = wait_result(sid, max_wait=240)
             line = (r.get("markets") or [{}])[0]
             rec |= {"status": r.get("status"), "verdict": line.get("verdict"), "reason": line.get("reason"),
                     "bounty": (line.get("bounty") or {}).get("amount"), "settlementUpTo": line.get("settlementUpTo")}

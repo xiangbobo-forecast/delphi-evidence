@@ -19,6 +19,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install httpx==0.27.2
       - run: python agent.py
+        timeout-minutes: 30
         env:
           DELPHI_API_ACCESS_KEY: ${{ secrets.DELPHI_API_ACCESS_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
