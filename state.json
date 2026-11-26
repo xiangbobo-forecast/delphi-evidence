@@ -3,20 +3,26 @@
   "0x94dbba7c9b44b788a701602ab6d919ff7b7fc38a": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T17:24:57.218703+00:00"
   },
   "0x191257a08df3a827a9a02fa54926ed9507b4497a": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T17:24:57.218703+00:00"
   },
   "0x55b0fabfcdf6125415854cc193ecd8cdc75bc382": {
-   "submitted": [],
-   "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T03:16:09.946612+00:00"
+   "submitted": [
+    {
+     "url": "https://www.esdiario.com/comunidad-valenciana/castellon/261126/204069/novedades-frente-castellon-batalla-electoral-parece-decidida-horas-cierre-campana.html",
+     "summary": "An internal analysis for the province of Castellón, reported on November 26, 2026, projects that Vox will secure one seat in the Congress of Deputies, with the report noting that the party would need ",
+     "id": "1ed723c7-7e19-4032-900b-d580102790e4"
+    }
+   ],
+   "direction": "no",
+   "checks": 2,
+   "last_checked": "2026-11-26T17:24:57.218703+00:00"
   },
   "0x0d79f61a3cf6c6a83501fcb6abd22eddb4ab6a58": {
    "submitted": [
@@ -197,6 +203,12 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-26T15:21:55.622258+00:00"
+  },
+  "0x3c8a98eb4ebca3156af93bf85c76bb3ac13ab4b0": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T17:24:57.218703+00:00"
   }
  }
 }
