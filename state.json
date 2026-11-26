@@ -112,26 +112,27 @@
     }
    ],
    "direction": "no",
-   "checks": 1,
-   "last_checked": "2026-11-26T07:43:56.787526+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T23:15:37.226007+00:00",
+   "done": "cap_reached"
   },
   "0x20dee82eb91956386496658e86ce5696edd09b25": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T09:31:27.614653+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T23:15:37.226007+00:00"
   },
   "0x55224cfb33522244ac64f969e5a38a5d4413fc23": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T09:31:27.614653+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T23:15:37.226007+00:00"
   },
   "0x71917b135a4702a3ae7276acbb2c42509e72ea8c": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T09:31:27.614653+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-26T23:15:37.226007+00:00"
   },
   "0xf640443d15af94932e1a7294c15312f0ad9e1136": {
    "submitted": [],
