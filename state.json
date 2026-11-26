@@ -29,6 +29,36 @@
    "direction": "no",
    "checks": 1,
    "last_checked": "2026-11-26T03:16:09.946612+00:00"
+  },
+  "0xecace7b63b2e044dd339e7512cf4360713a8e156": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T05:28:05.001211+00:00"
+  },
+  "0xbb2666746de61bb1b119398f4db48a53d64e20cd": {
+   "submitted": [
+    {
+     "url": "https://www.newstown.co.kr/news/articleView.html?idxno=723398",
+     "summary": "The Asan City Council opened its 269th second regular session on November 25, 2026, and scheduled the review of the 2027 main budget bill for December 8 through December 16, 2026. According to the sch",
+     "id": "9cbf3a48-26b7-4096-9ffd-757a7b5b7406"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-26T05:28:05.001211+00:00"
+  },
+  "0x48c2f4d761be00f8d9342a7de34d54673c506631": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T05:28:05.001211+00:00"
+  },
+  "0xda5d046f5bac4bbfa5abe32bc52787725548d4ee": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-26T05:28:05.001211+00:00"
   }
  }
 }
