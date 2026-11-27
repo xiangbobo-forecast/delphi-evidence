@@ -256,6 +256,36 @@
    "direction": null,
    "checks": 2,
    "last_checked": "2026-11-27T13:38:16.838097+00:00"
+  },
+  "0x1caa8ede6a19d50c0984e0b6101ee1cf1be7035d": {
+   "submitted": [
+    {
+     "url": "https://pressat.co.uk/releases/christmas-market-river-cruises-rhine-low-water-days-fall-from-13-in-100-in-november-to-under-3-in-100-in-december-26-years-of-gauge-records-show-456d7670585d0d96932c1c9ff459a46e/",
+     "summary": "A report published by River Cruise Escapes on November 25, 2026, analyzing 26 years of official WSV PEGELONLINE gauge data, states that the Rhine gauge at Kaub historically experiences low-water condi",
+     "id": "5de4c46f-2f3b-4013-b421-f1ab4579c8a4"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-27T17:25:14.212090+00:00"
+  },
+  "0xc7f86bbf5c3e046906ee01778e3f2a2330cf3d77": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T17:25:14.212090+00:00"
+  },
+  "0x04442be66b75030e192651cafc4aaf7426182164": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T17:25:14.212090+00:00"
+  },
+  "0x1d93301a27f43e038363fba7b37cf24ba026450a": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T17:25:14.212090+00:00"
   }
  }
 }
