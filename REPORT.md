@@ -1,12 +1,13 @@
 # Delphi 证据挖掘战报
 
-更新时间：2026-11-27 09:48 UTC
+更新时间：2026-11-27 11:21 UTC
 
-- 已提交：16 条；已评判：16 条，覆盖 11 个市场（门槛：10 条、3 个市场）
+- 已提交：17 条；已评判：17 条，覆盖 12 个市场（门槛：10 条、3 个市场）
 - 评判奖励合计：0.00 USDC.e（24 小时后到账，结算奖励另算）
 
 | 时间 | 市场 | 结论 | 奖励 USDC | 理由 |
 |---|---|---|---|---|
+| 2026-11-27T11:20 | 0x10f7f232 | duplicate | 0.00 | We already have this information. |
 | 2026-11-27T09:32 | 0x61be752b | duplicate | 0.00 | We already have this information. |
 | 2026-11-27T02:03 | 0xb50e8126 | irrelevant | 0.00 | This information does not bear on the market question. |
 | 2026-11-27T01:56 | 0xfdac0b32 | duplicate | 0.00 | We already have this information. |

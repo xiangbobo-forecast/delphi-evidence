@@ -214,26 +214,32 @@
   "0x921e39354e4bfc18251ad1b1c80eec1a3940ab82": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T15:21:55.622258+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T11:11:03.944376+00:00"
   },
   "0x2b7c2f3fc81678be6b7bae7ac24cf5f99b6e0326": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T15:21:55.622258+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T11:11:03.944376+00:00"
   },
   "0x10d5075e3fb5b43f3d67205cd89694b97a92d0e1": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T15:21:55.622258+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T11:11:03.944376+00:00"
   },
   "0x10f7f232cf20f579ef3929d699e49e8ffd4c1e94": {
-   "submitted": [],
-   "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T15:21:55.622258+00:00"
+   "submitted": [
+    {
+     "url": "https://actu.orange.fr/politique/budget-2027-apres-un-nouveau-blocage-quels-sont-les-differents-scenarios-l-express-via-6medias-CNT000002u4nvb.html",
+     "summary": "On November 26, 2026, the joint parliamentary committee (CMP) failed to reach an agreement on the 2027 social security financing bill (PLFSS), scheduling the bill's return to the National Assembly flo",
+     "id": "6f0f950d-a90c-49f3-9809-9ab5cf3d1084"
+    }
+   ],
+   "direction": "yes",
+   "checks": 2,
+   "last_checked": "2026-11-27T11:11:03.944376+00:00"
   },
   "0x3c8a98eb4ebca3156af93bf85c76bb3ac13ab4b0": {
    "submitted": [],
