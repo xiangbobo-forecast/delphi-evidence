@@ -340,6 +340,36 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-27T21:13:49.446055+00:00"
+  },
+  "0xda797f5fc37731b07b798635d33018e495968ce1": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T23:13:17.220355+00:00"
+  },
+  "0xdd37d817d1c69aaeca3c4cee5e894943f567d604": {
+   "submitted": [
+    {
+     "url": "https://www.noovo.info/nouvelles/politique/article/elections-partielles-federales-debut-du-vote-par-anticipation-dans-trois-circonscriptions-au-quebec/",
+     "summary": "On November 27, 2026, Noovo Info reported that advance voting officially opened on Friday, November 27, 2026, across all six federal by-election ridings scheduled for December 7, 2026 (\"Le vote par an",
+     "id": "acc9e9b0-4854-4951-b472-59dfdf0898a5"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-27T23:13:17.220355+00:00"
+  },
+  "0xee8036ac40090b83b329b8753eb3e55d603f6b45": {
+   "submitted": [
+    {
+     "url": "https://sports.yahoo.com/soccer/articles/where-rbl-currently-stand-race-131400865.html",
+     "summary": "Following their 3-1 victory over RC Lens on Matchday 5, RB Leipzig currently sits in 23rd place in the UEFA Champions League league-phase table, placing them within the play-off qualification zone (po",
+     "id": "f1dabf11-335c-4fc2-a040-493538e3b2de"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-27T23:13:17.220355+00:00"
   }
  }
 }
