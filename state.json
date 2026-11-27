@@ -40,8 +40,8 @@
   "0xecace7b63b2e044dd339e7512cf4360713a8e156": {
    "submitted": [],
    "direction": null,
-   "checks": 2,
-   "last_checked": "2026-11-26T19:22:40.522377+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-27T15:17:40.985916+00:00"
   },
   "0xbb2666746de61bb1b119398f4db48a53d64e20cd": {
    "submitted": [
@@ -62,17 +62,22 @@
      "url": "https://www.haberturk.com/bilgi/foto/kasim-ayi-enflasyon-beklentisi-belli-oldu-2026-kasim-enflasyonu-ne-zaman-aciklanacak-yuzde-kac-olacak-g-3930352",
      "summary": "According to a Bloomberg HT survey of 16 institutions published on November 26, 2026, the median forecast for Turkey's annual CPI inflation in November 2026 is 30.10%. The report notes that annual inf",
      "id": "741d3f85-7242-41e6-b9d8-917f72dfd3a5"
+    },
+    {
+     "url": "https://www.samsunhaber.com/memur-ve-emeklinin-ocak-zammi-yeniden-hesaplandi-uc-senaryo-one-cikti",
+     "summary": "According to an AA Finance survey of 20 economists published on November 26, 2026, the average expectation for Turkey's consumer inflation in November is 1.13%. The article states: 'Beklenti gerçekleş",
+     "id": "c7d2848f-122d-4eee-bfc9-06715b2cde91"
     }
    ],
    "direction": "yes",
-   "checks": 2,
-   "last_checked": "2026-11-26T19:22:40.522377+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-27T15:17:40.985916+00:00"
   },
   "0xda5d046f5bac4bbfa5abe32bc52787725548d4ee": {
    "submitted": [],
    "direction": null,
-   "checks": 2,
-   "last_checked": "2026-11-26T21:11:39.975701+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-27T15:17:40.985916+00:00"
   },
   "0x42fdc3fb099766fd01289f215cd399146e1f224e": {
    "submitted": [
@@ -85,11 +90,16 @@
      "url": "https://sportstar.thehindu.com/chess/gukesh-vs-sindarov-game-3-live-updates-real-time-board-position-analysis-highlights-world-chess-championship-2026/article71746786.ece",
      "summary": "Following the conclusion of Game 3 of the 2026 FIDE World Chess Championship on November 27, 2026, the cumulative score between D. Gukesh and Javokhir Sindarov is tied at 1.5 points each. The report s",
      "id": "101b8cb7-21c5-4801-9843-80b4962de29a"
+    },
+    {
+     "url": "https://english.dainikjagranmpcg.com/sports/-gukesh-vs-sindarov-game-3-draw-world-championship-score/article-46887",
+     "summary": "Following the conclusion of Game 3 of the 2026 FIDE World Chess Championship on November 26, 2026, the cumulative score between D. Gukesh and Javokhir Sindarov is 1.5-1.5, as reported by Dainik Jagran",
+     "id": "a3276290-42d7-4223-925f-4b733ae6e576"
     }
    ],
    "direction": "no",
-   "checks": 2,
-   "last_checked": "2026-11-26T21:11:39.975701+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-27T15:17:40.985916+00:00"
   },
   "0xa96dc716066329d666f3c50e6d8f71c701347296": {
    "submitted": [],
