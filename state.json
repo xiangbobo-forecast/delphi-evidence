@@ -286,6 +286,36 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-27T17:25:14.212090+00:00"
+  },
+  "0xcea6f296b003584a7ad1ebf2dc09c3df8c83521a": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T19:18:53.238670+00:00"
+  },
+  "0x722af8d348a7b3c287f7378c811b0f373c2a5f22": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T19:18:53.238670+00:00"
+  },
+  "0xf4a6ea6e9a424efaaaf97fa7d8cd332ae7306994": {
+   "submitted": [
+    {
+     "url": "https://www.gpblog.com/en/news/qatar-gp-upgrades-confirmed-as-only-one-team-deliver-changes",
+     "summary": "According to GPblog reporting on November 27, 2026, heading into the Qatar Grand Prix: \"Currently, Red Bull's Max Verstappen sits P2 on 304 points, 37 points ahead of Lewis Hamilton, while George Russ",
+     "id": "5a1c01ac-f9c3-4989-97dc-430beb5590ad"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-27T19:18:53.238670+00:00"
+  },
+  "0xc99496a87eaaf0c38b9788be1336a5ab0f04a04b": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-27T19:18:53.238670+00:00"
   }
  }
 }
