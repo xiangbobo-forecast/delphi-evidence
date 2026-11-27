@@ -175,11 +175,16 @@
      "url": "https://thehub.ca/2026/11/26/canadian-inflation-could-end-the-year-below-bank-of-canada-forecast-under-renewed-2-target/",
      "summary": "In a speech to the Economic Club of Canada on November 26, 2026, Bank of Canada Governor Tiff Macklem stated that while falling oil prices may lead to year-end inflation being lower than the bank's pr",
      "id": "20ca8f64-d43f-49c5-9765-77be13a407fc"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/canada-big-six-banks-now-110000544.html",
+     "summary": "On November 26, 2026, Bloomberg reported that all of Canada's six largest banks—Toronto-Dominion Bank, Canadian Imperial Bank of Commerce, Bank of Montreal, Bank of Nova Scotia, Royal Bank of Canada, ",
+     "id": "da2332ce-d0d3-4a0d-828c-d7eaf3bbffca"
     }
    ],
    "direction": "yes",
-   "checks": 1,
-   "last_checked": "2026-11-26T11:15:37.419933+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T09:30:13.509760+00:00"
   },
   "0x169f02be2177934e0d9fbb29c52b1d6d1891026c": {
    "submitted": [
@@ -190,20 +195,21 @@
     }
    ],
    "direction": "no",
-   "checks": 1,
-   "last_checked": "2026-11-26T13:41:08.392555+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T09:30:13.509760+00:00",
+   "done": "cap_reached"
   },
   "0x94a46dbc0e0a16e7177b792062b3786d94983179": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T13:41:08.392555+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T09:30:13.509760+00:00"
   },
   "0x7a17b76f7f1cda20e8bc5a88166c4732e6db39f5": {
    "submitted": [],
    "direction": null,
-   "checks": 1,
-   "last_checked": "2026-11-26T13:41:08.392555+00:00"
+   "checks": 2,
+   "last_checked": "2026-11-27T09:30:13.509760+00:00"
   },
   "0x921e39354e4bfc18251ad1b1c80eec1a3940ab82": {
    "submitted": [],
