@@ -400,6 +400,36 @@
    "direction": "no",
    "checks": 1,
    "last_checked": "2026-11-28T01:38:32.988520+00:00"
+  },
+  "0x87ae0bb3a3545c5aa2a149c8b63fc82b50d84b6a": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T03:12:21.392244+00:00"
+  },
+  "0x141c1def5ce0797f46ca53cd196eebe0f9e45f12": {
+   "submitted": [
+    {
+     "url": "https://buenosairesherald.com/business/agro/argentinas-grain-harvest-hits-record-171-million-tons",
+     "summary": "On November 27, 2026, the Buenos Aires Herald reported that Argentina's 2025/2026 wheat production reached 27.8 million tonnes, according to the National Agriculture Secretariat. The article states: '",
+     "id": "d5c6bf2c-4334-4900-8e0e-0634ec124ddb"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-28T03:12:21.392244+00:00"
+  },
+  "0x1506b63964c03013bb2de1564fa790945193779d": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T03:12:21.392244+00:00"
+  },
+  "0xa0dc997ab509a48819f3920c4d35f010e8bd17c8": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T03:12:21.392244+00:00"
   }
  }
 }
