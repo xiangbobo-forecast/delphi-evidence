@@ -141,14 +141,14 @@
   "0x71917b135a4702a3ae7276acbb2c42509e72ea8c": {
    "submitted": [],
    "direction": null,
-   "checks": 2,
-   "last_checked": "2026-11-26T23:15:37.226007+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-28T11:06:59.110252+00:00"
   },
   "0xf640443d15af94932e1a7294c15312f0ad9e1136": {
    "submitted": [],
    "direction": null,
-   "checks": 2,
-   "last_checked": "2026-11-27T01:42:21.230936+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-28T11:06:59.110252+00:00"
   },
   "0xfdac0b329c1eeccb338d7acc0ec4b537dcfc58c2": {
    "submitted": [
@@ -161,11 +161,16 @@
      "url": "https://www.letemps.ch/de/schweiz/gegen-das-svp-ticket-sucht-das-parlament-weiterhin-nach-einer-antwort",
      "summary": "On November 26, 2026, Le Temps reported that the SVP parliamentary group, which holds 74 seats in the Federal Assembly, has officially nominated Thomas Aeschi and Michael Graber for the Federal Counci",
      "id": "3900a5bd-f904-4187-ba7e-9c56b9fd7570"
+    },
+    {
+     "url": "https://www.marchanzeiger.ch/2026/11/28/fraktionen-pruefen-das-umstrittene-svp-ticket-in-den-hearings/",
+     "summary": "On November 28, 2026, Marchanzeiger reported on an analysis conducted by news agency Keystone-SDA with political scientists ahead of the parliamentary hearings for the Swiss Federal Council election o",
+     "id": "62adc133-0d33-4f82-a3e1-4558b9e89cf7"
     }
    ],
    "direction": "yes",
-   "checks": 2,
-   "last_checked": "2026-11-27T01:42:21.230936+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-28T11:06:59.110252+00:00"
   },
   "0xb50e81264ad92791f9849f7f83e0dbad03a39861": {
    "submitted": [
@@ -176,8 +181,8 @@
     }
    ],
    "direction": "yes",
-   "checks": 2,
-   "last_checked": "2026-11-27T01:42:21.230936+00:00"
+   "checks": 3,
+   "last_checked": "2026-11-28T11:06:59.110252+00:00"
   },
   "0x61be752b093bb2ac3b7019360543fa97056eb2b6": {
    "submitted": [
