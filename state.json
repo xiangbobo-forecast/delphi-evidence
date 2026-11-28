@@ -430,6 +430,36 @@
    "direction": null,
    "checks": 1,
    "last_checked": "2026-11-28T03:12:21.392244+00:00"
+  },
+  "0x829818f0b3fdf066746c9824331f9f9c6f5b14f0": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T05:20:07.163306+00:00"
+  },
+  "0xfcea3adcca7457feee5c95323f1440dd1b150f18": {
+   "submitted": [
+    {
+     "url": "https://www.latintimes.com/eisenkot-golan-coalition-deal-majority-hurdle-601915",
+     "summary": "On November 27, 2026, Gadi Eisenkot's Yashar party and Yair Golan's Democrats party formally signed a coalition agreement, granting the Democrats four cabinet portfolios, including the National Securi",
+     "id": "4118b348-ff21-4705-b64b-21146319239c"
+    }
+   ],
+   "direction": "yes",
+   "checks": 1,
+   "last_checked": "2026-11-28T05:20:07.163306+00:00"
+  },
+  "0x99b2f78a85247799ce862d80ea32c5eca0868ab3": {
+   "submitted": [
+    {
+     "url": "https://www.mindlenews.com/news/articleView.html?idxno=23378",
+     "summary": "According to a Gallup Korea poll conducted from November 24 to 26, 2026, and published on November 27, 35% of respondents support the impeachment of Chief Justice Cho Hee-dae, while 42% oppose it, and",
+     "id": "8e36aee7-1355-4f96-9fe7-8e8316e31a04"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-28T05:20:07.163306+00:00"
   }
  }
 }
