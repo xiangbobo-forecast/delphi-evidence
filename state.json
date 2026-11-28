@@ -460,6 +460,30 @@
    "direction": "no",
    "checks": 1,
    "last_checked": "2026-11-28T05:20:07.163306+00:00"
+  },
+  "0x36f7937d5210adb8e04ebc01c2cb029be57d8f69": {
+   "submitted": [
+    {
+     "url": "https://english.dainikjagranmpcg.com/sports/-gukesh-vs-sindarov-game-3-draw-world-championship-score/article-46887",
+     "summary": "As of November 27, 2026, the FIDE World Chess Championship match between D. Gukesh and Javokhir Sindarov is tied at 1.5-1.5 after three games. The third game concluded in a draw after 60 moves. The ma",
+     "id": "d2d0a54d-6d2b-42fc-9ca1-259b4664f790"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-28T07:36:40.146782+00:00"
+  },
+  "0xfee878bd1cbb4ce4c56466242200ed29cbc2c5a9": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T07:36:40.146782+00:00"
+  },
+  "0x2a157ad1591cec9d7e96e6d818bf510249e4a108": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T07:36:40.146782+00:00"
   }
  }
 }
