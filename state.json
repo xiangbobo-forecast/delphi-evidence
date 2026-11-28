@@ -370,6 +370,36 @@
    "direction": "yes",
    "checks": 1,
    "last_checked": "2026-11-27T23:13:17.220355+00:00"
+  },
+  "0xaaceb07371e4038fc4f081bc9fb14b43a017fe05": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T01:38:32.988520+00:00"
+  },
+  "0x516fe83b5bc73293937c4a1d2bbc777cfdec40f3": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T01:38:32.988520+00:00"
+  },
+  "0x9a6645fbd87058b37eeef4aa7b87bab54f6a3879": {
+   "submitted": [],
+   "direction": null,
+   "checks": 1,
+   "last_checked": "2026-11-28T01:38:32.988520+00:00"
+  },
+  "0x1340f8f42377054932a7f9ffd5d1d590a5992567": {
+   "submitted": [
+    {
+     "url": "https://www.fxempire.com/forecasts/article/natural-gas-price-forecast-mild-us-weather-drives-prices-lower-1647757",
+     "summary": "The NOAA Climate Prediction Center outlook issued on November 26, 2026, forecasts above-normal temperatures across most of the Lower 48 states for the period of December 2 through December 6, with pro",
+     "id": "93ae10c7-0833-4569-902c-a652b8239fbe"
+    }
+   ],
+   "direction": "no",
+   "checks": 1,
+   "last_checked": "2026-11-28T01:38:32.988520+00:00"
   }
  }
 }
